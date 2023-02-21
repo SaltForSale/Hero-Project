@@ -146,14 +146,15 @@ hr {
 	border-color:black;
 }
 .accordion{
-  background-color: black;
-  color:white;
   border-color:white;
   border:solid;
   border-width:3px
-  
 }
 .resize{
   width:441px;
   height:658.5px;
+}
+.hightlight{
+	background-color:white;
+	color:black;
 }
