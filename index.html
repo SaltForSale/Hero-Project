@@ -19,54 +19,194 @@
     <title>Jack Kirby</title>
   </head>
   <body>
-    <div class="hero-image">
+    <div class="hero-image" id="top">
       <div class="hero-text">
         <h1>Jack Kirby</h1>
         <p>Co-creator or Marvel</p>
       </div>
     </div>
+    <div class="container-fluid">
+      <nav class="topnav navbar navbar-expand-md bg-black">
+        <img src="pfp.png" height="46px" width="60px" />
+        <!-- Each span tag with the fontChange1 or fontChange2 class are the texts with the weird accent boxes -->
+        <p class="navbar-brand text-white mt-auto mb-auto">
+          Jack Kirby
+        </p>
+        <button
+          class="navbar-toggler bg-white fontChange1"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- The navbar scrolls down to the skills and projects sections but switches to a different page for the Resume button -->
+          <div class="navbar-nav">
+            <a class="nav-link text-white" href="#top"
+              ><span class="fontChange1">Home</a
+            >
+            <a class="nav-link text-white" href="#style"
+              >Style</a
+            >
+            <a class="nav-link text-white" href="#work"
+              >Work</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
     <container-fluid>
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" id="navId" role="tablist">
-        <li class="nav-item">
-          <a
-            href="#tab1Id"
-            class="nav-link active"
-            data-bs-toggle="tab"
-            aria-current="page"
-            >Home</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Life</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Work</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Style</a>
-        </li>
-      </ul>
-
-      <!-- Tab panes -->
-      <div class="tab-content" id="myTabContent">
-        <div
-          class="tab-pane fade show active"
-          id="tab1Id"
-          role="tabpanel"
-        ></div>
-        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+      <div class="row d-flex justify-content-evenly m-0 sidefix">
+        <div class="col-md-6">
+          <br />
+          <center><img src="pf.jpg" height="270.1px" width="237.6px" /></center>
+          <hr />
+          <hr />
+          <center>
+            <h1>
+              Jack Kirby
+              <hr />
+              Creator of the Kirby Krackle
+            </h1>
+          </center>
+        </div>
+        <div class="col-md-5 feat header">
+          <br />
+          <!-- About Section instead of a whole Page -->
+          <h1 class="header text-center">
+            <i class="fa-solid fa-star-of-life"></i>
+            Life
+            <i class="fa-solid fa-star-of-life"></i>
+          </h1>
+          <hr />
+          <hr />
+          <h4 class="header text-center">
+            Jack Kirby was an American comic book artist, writer and editor,
+            widely regarded as one of the medium's major innovators and one of
+            its most prolific and influential creators. He grew up in New York
+            City and learned to draw cartoon figures by tracing characters from
+            comic strips and editorial cartoons. He helped create hundreds of
+            original characters, including Captain America, the Incredible Hulk,
+            and the Fantastic Four.
+          </h4>
+        </div>
       </div>
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon" id="style">
+          <h1><i class="fa-solid fa-person-dots-from-line"></i></h1>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <h1 class="header text-center">
+        <i class="fa-solid fa-palette"></i> Style
+        <i class="fa-solid fa-palette"></i>
+      </h1>
+      <div class="row d-flex justify-content-evenly m-0 sidefix">
+        <div class="col-md-10 feat header">
+          <h4 class="header text-center">
+            <hr />
+            A font of inspiration, conflicts, science fiction and mythic
+            storytelling. Kirby’s art—his visual prowess—is why we’re here. At
+            the most basic level his signature motifs include extreme
+            foreshortening, the squiggle, and the “Kirby Krackle.” Most of
+            Kirby’s art was drawn to serve a story he was telling. His goal was
+            to pull his readers in, make them feel that they were in the story,
+            the outside world peeling away, as if they were in a theater
+            watching a movie.  Kirby Krackle (also known as Kirby Dots) is an artistic convention in superhero and science fiction comic books and similar illustrations, in which a field of black is used to represent negative space around unspecified kinds of energy. Kirby Krackles are typically used in illustrations of explosions, smoke, the blasts from ray guns, "cosmic" energy, and outer space phenomena.
+          </h4>
+          <hr />
+        </div>
+      </div>
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon" id="work">
+          <h1><i class="fa-solid fa-person-dots-from-line"></i></h1>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <h1 class="header text-center">
+        <i class="fa-solid fa-lightbulb"></i> Work
+        <i class="fa-regular fa-lightbulb"></i>
+      </h1>
+      <div class="row d-flex justify-content-evenly m-0 sidefix">
+        <div class="col-md-7 feat2">
+          <img src="ant.jpg" class="resize">
+          <img src="avengers.jpg" class="resize">
+          <img src="cap.jpg" class="resize">
+          <img src="f4.jpg" class="resize">
+          <img src="galactus.jpg" class="resize">
+          <img src="hulk.jpg" class="resize">
+          <img src="iron.jpg" class="resize">
+          <img src="panther.jpg" class="resize">
+          <img src="surfer.jpg" class="resize">
+          <img src="thor.jpg" class="resize">
+          <img src="vision.jpg" class="resize">
+          <img src="xmen.jpg" class="resize">
+          </div>
+          <div class="col-md-3 feat2">
+            <hr>
+            <div class="accordion"><h6>Ant-Man (Tales to Astonish #27, January 1962)</h6>
 
-      <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
-      <script>
-        var triggerEl = document.querySelector("#navId a");
-        bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
-      </script>
+            </div>
+            <div class="accordion"><h6>The Avengers (The Avengers #1, September 1963)</h6>
+
+            </div>
+            <div class="accordion"><h6>Black Panther (The Fantastic Four #52, July 1966)</h6>
+
+            </div>
+            <div class="accordion"><h6>Captain America (Captain America Comics #1, March 1941)</h6>
+
+            </div>
+            <div class="accordion"><h6>The Fantastic Four (The Fantastic Four #1, November 1961)</h6>
+
+            </div>
+            <div class="accordion"><h6>Galactus (The Fantastic Four #48, March 1966)</h>
+
+            </div>
+            <div class="accordion"><h6>The Hulk (The Incredible Hulk #1, May 1962)</h6>
+
+            </div>
+            <div class="accordion"><h6>Iron Man (Tales of Suspense #39, March 1963)</h>
+
+            </div>
+            <div class="accordion"><h6>Silver Surfer (The Fantastic Four #48, March 1966)</h6>
+
+            </div>
+            <div class="accordion"><h6>Thor (Journey into Mystery #83, August 1962)</h6>
+
+            </div>
+            <div class="accordion"><h6>The Vision (Marvel Mystery Comics #13, November 1940)</h6>
+
+            </div>
+            <div class="accordion"><h6>The X-Men (The X-Men #1, September 1963)</h6>
+
+            </div>
+            <hr>
+          </div>
+          </div>
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon" id="work">
+          <h1><i class="fa-solid fa-person-dots-from-line"></i></h1>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
     </container-fluid>
-    <script></script>
+    <footer class="footer">
+      <h1>
+        Copyright or whatever.  idrk what should go here.
+      </h1>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
