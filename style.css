@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  background-image: url("bg.png");
+  background-image: url("/assets/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 0;
@@ -13,7 +13,7 @@ html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("kirby_auto_x2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/kirby_auto_x2.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -46,7 +46,7 @@ html {
   border-color: white;
   background-color: black;
   margin: 10px;
-  border-radius:25px;
+  border-radius: 25px;
 }
 
 .feat2 {
@@ -54,7 +54,7 @@ html {
   border: solid;
   border-color: white;
   background-color: black;
-  border-radius:25px;
+  border-radius: 25px;
 }
 
 .header {
@@ -118,7 +118,7 @@ hr {
   border-width: 3px;
   border-color: black;
   background-color: black;
-  width:100%;
+  width: 100%;
 }
 
 .resize {
@@ -130,10 +130,11 @@ hr {
   background-color: #fbb215;
 }
 
-.container-fluid{
-  margin:0px;
-  padding:0px;
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
 }
+
 .footer {
   width: 100%;
   left: 0;
@@ -141,20 +142,23 @@ hr {
   color: white;
   text-align: center;
   background-color: black;
-	border:solid;
-	border-width:20px;
-	border-color:black;
+  border: solid;
+  border-width: 20px;
+  border-color: black;
 }
-.accordion{
-  border-color:white;
-  border:solid;
-  border-width:3px
+
+.accordion {
+  border-color: white;
+  border: solid;
+  border-width: 3px
 }
-.resize{
-  width:441px;
-  height:658.5px;
+
+.resize {
+  width: 441px;
+  height: 658.5px;
 }
-.hightlight{
-	background-color:white;
-	color:black;
+
+.hightlight {
+  background-color: white;
+  color: black;
 }
